@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Raleway:900&display=swap');
+
+   html,body{
+      width:100%;
+      height:100%;
+   }
+
+   h1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #0A0A0D;
+    text-align: center;
+  }
+
+  p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    color: #0A0A0D;
+    margin-top: 70px;
+    width: 310px;
+  }
+
+  .container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+   #particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+   
+ /*Header*/ 
+
+  header h1{
+    font-size: 40px;
+    color:#0A0A0D;
+    text-align: left;
+    width: 255px;
+  }
+
+  header h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #0A0A0D;
+    margin-top: 11px;
+    text-align: left;
+  }
+
+   .titulo{
+    margin-bottom: 80px;
+   }
+
+  .nav-link{
+    font-family: Raleway;
+  }
+
+  .navbar .fas{
+    color: #0A0A0D;
+  }
+
+ /*Sobre mim*/ 
+
+  #sobremim{
+    background-color: #212026;      
+   }
+
+  #sobremim .col-12{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.2;
+  }
+
+  #sobremim .container{
+     overflow: visible;
+  }
+
+  #sobremim .center{
+    position: absolute;
+    top: 370px;
+  }
+
+  #sobremim h1, p{
+    color: #d9d9d9; 
+  }
+
+/*Portfolio*/
+
+  #portfolio{
+    background-color:rgba(217, 217, 217, 0.2);
+  }
+
+  #portfolio h1{
+    margin-bottom: 120px;
+    color: #212026;
+    text-align: center;
+    width: 250px;
+  }
+
+  .logovans img{
+    width: 250px;
+    margin-bottom: 80px;
+    text-align: center;
+ }
+
+  .aprenda img{
+    width: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+/*Contato*/
+
+  #contato{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #contato h1{
+    color: #0A0A0D;
+  }
+
+   #contato .container{
+      overflow: visible;
+   }
+
+  .formulario{
+    margin-top:50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 300px;
+  }
+
+  .form-control{
+    background-color: transparent;
+    border: 1px solid #0A0A0D;
+  }
+
+  .form-control::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #0A0A0D;
+  }
+
+   .form-control:focus {
+    color: #0A0A0D;
+    background-color: transparent;
+    border-color: #d9d9d9;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #8C8B88;
+  }
+
+  .nome, .email,.correctemail, .ass, .men{
+    display: none;
+  }
+
+  .nomevalido, .emailvalido, .assvalido, .menvalido{
+    text-align: left;
+    font-size: 20px;
+    color: #d9d9d9;
+    display: none;
+  }
+
+  .nomeinvalido, .emailinvalido, .assinvalido, .meninvalido{
+    text-align: left;
+    font-family: montserrat;
+    color: #D9B1A3;
+    display: block;
+  }
+
+  .correctemail{
+    text-align: left;
+    font-family: montserrat;
+    color: #D9B1A3;
+    display: none;
+  }
+
+  .invalido{
+    border: 2px solid #D9B1A3 !important;
+  }
+
+  .valido{
+    text-align: center;
+    font-size: 30px;
+    color: #d9d9d9;
+    display: none;
+    width:100%;
+  }
+
+  .btn{
+    margin-top: 30px;
+    width: 90px;
+    height: 45px;
+    background-color: #D9D9D9;
+    color: #0A0A0D;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border: transparent;
+  }
+
+  #my-form-status{
+    font-size: 15px;
+    text-align: center;
+    color: #d9d9d9;
+    margin-top: 50px;
+    width: 100%;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+/*Footer*/
+
+  .obrigado{
+    font-size: 36px;
+    font-family: Raleway;
+    color:#D9D9D9;
+    width: 255px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  footer{
+    background-color:#212026;
+  }
+
+  .redes{
+    margin-bottom: 50px;
+  }
+
+  footer ul{
+    padding-left: 0px;
+  }
+
+  footer li{
+    list-style: none;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+   
+  footer .fab{
+    color:#8C8B88;
+    font-size: 60px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  footer .fab:hover{
+    color: #BFBFBF;
+  }
+
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)/*
+/*Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
+
+@media(max-height:630px){
+ 
+   #sobremim .center {
+      top: 270px;
+   }
+
+   p {
+      font-size: 14px;
+   }
+
+}
+
+@media(max-height:550px){
+   
+   #sobremim .center {
+    top: 240px;
+   }
+
+   p {
+    font-size: 13px;
+   }
+   
+   .formulario {
+    margin-top: 25px;
+   }
+   
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) { 
+
+  .container {
+    max-width: 100%;
+  }
+ 
+  h1 {
+    font-size: 48px;
+    width:100%;
+  }
+
+  p {
+    font-size: 13px;
+    width: 565px;
+    margin-top: 50px;
+  }
+
+
+  .flex-column-reverse {
+    flex-direction: initial!important;
+  }
+
+  /*Header*/
+
+  header h1 {
+   text-align: left;
+  }
+
+  header h2 {
+    text-align: left;
+    width: 255px;
+  }
+
+  /*Sobre mim*/
+
+  #sobremim .center {
+    top: 180px;
+  }
+
+  /*Portfolio*/
+
+  #portfolio h1 {
+    margin-bottom: 80px;
+    width: 432px;
+  }
+
+  .logovans img {
+    position: relative;
+    width: 230px;
+    margin-bottom: 0px;
+    right:28%
+  }
+
+  .aprenda img {
+    position: relative;
+    width: 230px;
+    margin-bottom: 0px;
+    bottom: 25px;
+    left: 15%;
+  }
+  
+  /*Contato*/
+  
+  #contato {
+    padding-top: 200px;
+    padding-bottom: 120px;
+  }
+  
+  #contato .center{
+    top:200px;
+  }
+
+  .formulario {
+    width: 500px;
+  }
+
+  /*Footer*/
+
+  .obrigado {
+    width: 600px;
+  }
+  
+  footer .fab{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) {
+ 
+  .container {
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 54px;
+    width:100%;
+  }
+
+  p {
+    font-size: 15px;
+    width: 700px;
+  }
+
+  .flex-column-reverse {
+    flex-direction: initial!important;
+  }
+
+  /*Header*/
+
+  header h1 {
+   text-align: left;
+   font-size: 94px;
+   width: 600px;
+  }
+
+  header h2 {
+    text-align: left;
+    width: 255px;
+    padding-left: 7px;
+  }
+
+  /*Sobre mim*/
+
+  #sobremim .center {
+    top: 160px;
+  }
+
+  /*Contato*/
+
+  #contato {
+    padding-top: 150px; 
+    padding-bottom: 100px; 
+  }
+  
+  #contato .center{
+    top:50%;
+  }
+
+  .formulario{
+    width: 600px;
+  }
+  
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) { 
+   
+  p {
+    width: 450px;
+    color: #d9d9d9;
+  }
+
+  /*Header*/
+
+  header h1 {
+    font-size: 109px;
+    width: 700px;
+  }
+
+  /*Sobre mim*/
+  
+  #sobremim h1{
+    text-align: left;
+    position: relative;
+    top: 200px;
+  }
+  
+  #sobremim p{
+    position: relative;
+    top: 200px;
+  }
+
+  .carousel-item img {
+    opacity: 0.7;
+  }
+
+  /*Portfolio*/
+
+  #portfolio h1 {
+    width: 512px;
+  }
+
+  .logovans img{
+    width: 300px;
+  }
+
+  .aprenda img{
+    width: 300px;
+  }
+
+  /*Contato*/
+
+  #contato {
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+  }
+
+  /*Footer*/
+
+  .obrigado {
+    font-size: 68px;
+    width: 700px;
+    text-align: left;
+  }
+
+}
+
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+  
+  /*Header*/
+
+  header h1 {
+    font-size: 157px;
+    width: 1000px;
+    text-align: left;
+  }
+
+  header h2 {
+    width: 400px;
+    font-size: 35px;
+    margin-top: 25px;
+    padding-left: 10px;
+  }
+
+  /*Sobre mim*/
+
+  #sobremim {
+    position: relative;
+  }
+
+  /*Portfolio*/
+  
+  #portfolio h1 {
+    margin-bottom: 120px;
+    width: 630px;
+  }
+
+  .logovans img {
+    right:25%
+  }
+
+  .aprenda img {
+    left: 25%;
+  }
+
+  /*Contato*/
+   
+  .formulario{
+    width: 750px;
+  } 
+
+  /*Footer*/
+
+  .obrigado {
+    font-size: 98px;
+    width: 1000px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+
+  .foto{
+    display: none;
+  }
+
+  header h1 {
+      font-size: 156px;
+      width: 1000px;
+  }
+
+  #portfolio .row{
+     display:block;
+   }
+   
+   #portfolio{
+      width:100%;
+   }
+   
+   #portfolio h1{
+      margin-bottom:80px;
+   }
+   
+   .logovans img{
+      margin-left: 243px;
+   }
+   
+   .aprenda img{
+      margin-left: 95px;
+      top:50px;
+   }
+   
+   #contato .row{
+      display:block;
+   }
+  
+}
+
